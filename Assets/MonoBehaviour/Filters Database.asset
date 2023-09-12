@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86180aed68ee2d2462b7f56d4b9e76ad, type: 3}
+  m_Name: Filters Database
+  m_EditorClassIdentifier:
+  filters:
+  - filterName: Saturated
+    profile: {fileID: 11400000, guid: 042a1dbc3ebb6f542b90a5e97a5a2cc9, type: 2}
+  - filterName: BlackAndWhite
+    profile: {fileID: 11400000, guid: 86271a27cfbf64d4c96e9b475e17cc93, type: 2}
+  - filterName: Sepia
+    profile: {fileID: 11400000, guid: 9fe207233b0308c43bd2b30c2fbdbd79, type: 2}
+  - filterName: OldFilm
+    profile: {fileID: 11400000, guid: adaa26f2f99db3948b499dacba5f2e29, type: 2}
+  - filterName: Red
+    profile: {fileID: 11400000, guid: 9f029c05048734847aa6f018776dfb86, type: 2}
+  - filterName: Green
+    profile: {fileID: 11400000, guid: d9241e35ce0493c49b21431446f4bba2, type: 2}
+  - filterName: Blue
+    profile: {fileID: 11400000, guid: fbeb95841f339494f91151b97fad5138, type: 2}

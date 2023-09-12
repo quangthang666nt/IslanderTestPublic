@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e0599b184f384f5676f4b1491208ef, type: 3}
+  m_Name: BB_Balloon
+  m_EditorClassIdentifier:
+  bAlwaysShowWhenAvailable: 0
+  strPackName:
+    mTerm: Building Names/ Tavern
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  strPackDescriptionTemplate:
+    mTerm: Tooltips/Building Pack Description Template 01
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  strPackLookupName:
+  strPackLookupDescription:
+  goPackIcon: {fileID: 0}
+  liGoBuildings:
+  - {fileID: 1062724559666597, guid: 5120e0e0c14fcf84c8eb4451be197bd5, type: 2}
+  liGoRequirements:
+  - {fileID: 1251385261122080, guid: 173db5b0dbea7b342b06f24cd1751017, type: 2}
+  - {fileID: 1556755632080394, guid: 424ee575ab14c304d90ec1db2d81d99c, type: 2}
+  - {fileID: 1424392395349678, guid: 331963c077021a34996ad8256f3608c6, type: 2}
+  iRequirementJokers: 1
+  iMinimumRequiredTotalUnlocks: 0
+  bRequiresGrass: 0
+  bRequiresSand: 0
+  bRequiresNoSand: 0
+  bRequiresRock: 0
+  bRequiresWood: 0
+  bRequiresGold: 0
+  eAvailableIn: 2

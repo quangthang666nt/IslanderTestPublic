@@ -1,0 +1,1041 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6126847f7d7002a9b6028081aa71b846, type: 3}
+  m_Name: Color Setup Sinister 01 A
+  m_EditorClassIdentifier:
+  keyColorSetup1:
+    name:
+    keyColor: {r: 0.030162122, g: 0.2675048, b: 0.2248852, a: 1}
+    fixedColor:
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+    copyColorFrom: 0
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0.7, y: 0.9}
+      rangeValueOverwrite: {x: 0.1, y: 1}
+    comment:
+      comment: 'A random but always very saturated color. '
+  keyColorSetup2:
+    name:
+    keyColor: {r: 0.2675048, g: 0.095561974, b: 0.12643778, a: 1}
+    fixedColor:
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+    copyColorFrom: 2
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0.5, y: 0.5}
+      rangeSaturationOffset: {x: -0.2, y: -0.3}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment: 'The complimentary color of Key-Color 1, but less saturated. '
+  keyColorSetup3:
+    name:
+    keyColor: {r: 0.681187, g: 0.5847284, b: 0.7287882, a: 1}
+    fixedColor:
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+    copyColorFrom: 0
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0.6, y: 0.8}
+      rangeSaturationOverwrite: {x: 0.1, y: 0.5}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment: Random Color with saturation between 0.1 & 0.5
+  keyColorSetup4:
+    name:
+    keyColor: {r: 0.07483483, g: 0.065234065, b: 0.051817566, a: 1}
+    fixedColor:
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+    copyColorFrom: 0
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0.1, y: 0.5}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment: Random Color with saturation between 0.1 & 0.5
+  materialSetups:
+  - name: Grass 01 A
+    matColor: {r: 0.17321514, g: 0.40000004, b: 0.25080007, a: 1}
+    targetMaterial: {fileID: 2100000, guid: fe5f7d194597de54893ca32c5f61d161, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: 6acb3586d653c1341add5d63a34f811b, type: 2}
+    - {fileID: 2100000, guid: 9fd8dac09ee69ff4a9e7f07d6e8030b0, type: 2}
+    - {fileID: 2100000, guid: e8748a11bffb8f74db9bef7c211fa52f, type: 2}
+    - {fileID: 2100000, guid: ee98c54c6fa9e4f459ec6c847dbabaf1, type: 2}
+    - {fileID: 2100000, guid: 058e2e97c36dfe04294cd73064ab1ba0, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0.055
+      amountKeyColor2: 0.159
+      amountKeyColor3: 0.136
+      amountKeyColor4: 0.108
+      amountFixedColor: 0.825
+      amountCopyFromSource: 0
+      fixedColor: {r: 0.45812565, g: 0.6698113, b: 0.4743576, a: 0}
+      sourceMaterial: {fileID: 0}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0.1}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0.5, y: 0.6}
+      rangeValueOverwrite: {x: 0.4, y: 0.4}
+    comment:
+      comment:
+    originalColor: {r: 0.5149105, g: 0.5353352, b: 0.19482644, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: fe5f7d194597de54893ca32c5f61d161, type: 2}
+  - name: Building Accent 01 A
+    matColor: {r: 0.1907525, g: 0.13703726, b: 0.6851864, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 5a71043934762694ebb41b7e0ec99b90, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: 9bcde3e9c3501774494d5286a0450c67, type: 2}
+    - {fileID: 2100000, guid: 9a60c5bb6fe41f244b982d949f77078d, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0.266
+      amountKeyColor2: 0.856
+      amountKeyColor3: 0.147
+      amountKeyColor4: 0.128
+      amountFixedColor: 0
+      amountCopyFromSource: 0.437
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+      sourceMaterial: {fileID: 2100000, guid: fe5f7d194597de54893ca32c5f61d161, type: 2}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0.2, y: 1}
+      rangeSaturationOverwrite: {x: 0.8, y: 0.8}
+      rangeValueOverwrite: {x: 0.6, y: 0.8}
+    comment:
+      comment:
+    originalColor: {r: 0.5902987, g: 0.71232414, b: 0.14246482, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 5a71043934762694ebb41b7e0ec99b90, type: 2}
+  - name: Building Accent 01 B
+    matColor: {r: 0.75658095, g: 0.394157, b: 0.59036934, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 38bba983d8c1fdd4384da0a6681e92d7, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: 81a2e7e2a8474f2469cf95a490af3a1a, type: 2}
+    - {fileID: 2100000, guid: d6cb44f1d422fc64da650cc3d86a5a60, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0.12
+      amountKeyColor2: 0.198
+      amountKeyColor3: 0.179
+      amountKeyColor4: 0.775
+      amountFixedColor: 0
+      amountCopyFromSource: 0
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+      sourceMaterial: {fileID: 0}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0.4, y: 0.5}
+      rangeValueOverwrite: {x: 0.6, y: 0.8}
+    comment:
+      comment:
+    originalColor: {r: 0.5315536, g: 0.3367008, b: 0.66556513, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 38bba983d8c1fdd4384da0a6681e92d7, type: 2}
+  - name: Building Accent 01 C
+    matColor: {r: 0.3823696, g: 0.46385747, b: 0.7517302, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 2be00c962ad874a4e9af93bbd93bf2d8, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: cbeeedf81425d38469d333a5926c0746, type: 2}
+    - {fileID: 2100000, guid: 9c36bd1faaa08af4e857484048bb8029, type: 2}
+    - {fileID: 2100000, guid: c9e38a37151252447b5c0a2c011f115d, type: 2}
+    - {fileID: 2100000, guid: 10df026a044345d45bb7df6934ab5bb1, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0.632
+      amountKeyColor2: 0.3
+      amountKeyColor3: 0.5
+      amountKeyColor4: 0.058
+      amountFixedColor: 0
+      amountCopyFromSource: 0.165
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+      sourceMaterial: {fileID: 2100000, guid: 5a71043934762694ebb41b7e0ec99b90, type: 2}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0.4, y: 0.5}
+      rangeValueOverwrite: {x: 0.7, y: 0.8}
+    comment:
+      comment:
+    originalColor: {r: 0.7955801, g: 0.45312086, b: 0.6799411, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 2be00c962ad874a4e9af93bbd93bf2d8, type: 2}
+  - name: Building Accent 01 D
+    matColor: {r: 0.6565809, g: 0.34205985, b: 0.5123382, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 2b0b5949d7cfeb34683313ea84862818, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: 883f221b1cf8009428fc3fbcf5831e4d, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 0
+      amountCopyFromSource: 1
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+      sourceMaterial: {fileID: 2100000, guid: 38bba983d8c1fdd4384da0a6681e92d7, type: 2}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: -0.1, y: -0.1}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment:
+    originalColor: {r: 0.4516886, g: 0.28611207, b: 0.5655651, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 2b0b5949d7cfeb34683313ea84862818, type: 2}
+  - name: Building Base 01 A
+    matColor: {r: 0.89543164, g: 0.792856, b: 0.8632858, a: 1}
+    targetMaterial: {fileID: 2100000, guid: a06ded14ac1550b47b33c53782cb7ef2, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: 8d59186613d3f364abfeba276bdd2b0c, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0.248
+      amountKeyColor2: 0.504
+      amountKeyColor3: 0.232
+      amountKeyColor4: 0.198
+      amountFixedColor: 0
+      amountCopyFromSource: 0
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+      sourceMaterial: {fileID: 0}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0.1, y: 0.15}
+      rangeValueOverwrite: {x: 0.85, y: 0.9}
+    comment:
+      comment:
+    originalColor: {r: 0.79456127, g: 0.7784467, b: 0.87160933, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: a06ded14ac1550b47b33c53782cb7ef2, type: 2}
+  - name: Building Base 01 B
+    matColor: {r: 0.75504833, g: 0.6442847, b: 0.7203365, a: 1}
+    targetMaterial: {fileID: 2100000, guid: ff5c333b84055e341af79327d10a694e, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: 8c9df6f32ab58bb4bb62d4995b4ac244, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0.248
+      amountKeyColor2: 0.504
+      amountKeyColor3: 0.232
+      amountKeyColor4: 0.198
+      amountFixedColor: 0
+      amountCopyFromSource: 0
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+      sourceMaterial: {fileID: 0}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0.1, y: 0.15}
+      rangeValueOverwrite: {x: 0.75, y: 0.8}
+    comment:
+      comment:
+    originalColor: {r: 0.69250286, g: 0.6768854, b: 0.76717365, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: ff5c333b84055e341af79327d10a694e, type: 2}
+  - name: Building Iron 01 A
+    matColor: {r: 0.5, g: 0.4681125, b: 0.474788, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 2a96f4cd1b3074443808519966fcce96, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: 9843c3e4377425a4d8e25179005f6810, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0.814
+      amountKeyColor3: 0.039
+      amountKeyColor4: 0.043
+      amountFixedColor: 0
+      amountCopyFromSource: 0
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+      sourceMaterial: {fileID: 0}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0.05, y: 0.1}
+      rangeValueOverwrite: {x: 0.5, y: 0.5}
+    comment:
+      comment:
+    originalColor: {r: 0.460789, g: 0.5, b: 0.48139033, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 2a96f4cd1b3074443808519966fcce96, type: 2}
+  - name: Building Wood 01 A
+    matColor: {r: 0.641737, g: 0.32786074, b: 0.15760608, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 566465fadd40dad4384cb7b8a84378f1, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: 074cfe0d4765d3b4da008beac427946b, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0.201
+      amountKeyColor2: 0.345
+      amountKeyColor3: 0.046
+      amountKeyColor4: 0.031
+      amountFixedColor: 1
+      amountCopyFromSource: 0
+      fixedColor: {r: 0.49056602, g: 0.29916358, b: 0.17817727, a: 0}
+      sourceMaterial: {fileID: 0}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0.7, y: 0.8}
+      rangeValueOverwrite: {x: 0.55, y: 0.65}
+    comment:
+      comment:
+    originalColor: {r: 0.5551226, g: 0.2830619, b: 0.122532055, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 566465fadd40dad4384cb7b8a84378f1, type: 2}
+  - name: Building Wood 01 B
+    matColor: {r: 0.46521997, g: 0.22933048, b: 0.10137785, a: 1}
+    targetMaterial: {fileID: 2100000, guid: e714968767200174ab7dfdf2973d5cfc, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: c93358cb6d2d81742aa821e2a178c61f, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0.201
+      amountKeyColor2: 0.345
+      amountKeyColor3: 0.046
+      amountKeyColor4: 0.031
+      amountFixedColor: 1
+      amountCopyFromSource: 0
+      fixedColor: {r: 0.49056602, g: 0.29916358, b: 0.17817727, a: 0}
+      sourceMaterial: {fileID: 0}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0.7, y: 0.8}
+      rangeValueOverwrite: {x: 0.4, y: 0.55}
+    comment:
+      comment:
+    originalColor: {r: 0.45761472, g: 0.25380936, b: 0.1335537, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: e714968767200174ab7dfdf2973d5cfc, type: 2}
+  - name: Field 01 A
+    matColor: {r: 0.1867163, g: 0.3835457, b: 0.40692502, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 32bd5291cbef4b74ab00ab9559977b13, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: c55906dd8f75dce498dd1843fa796a8d, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0.744
+      amountKeyColor2: 0.0159
+      amountKeyColor3: 0.136
+      amountKeyColor4: 0.108
+      amountFixedColor: 0.0717
+      amountCopyFromSource: 0.83
+      fixedColor: {r: 0.8, g: 0.57640916, b: 0.2, a: 0}
+      sourceMaterial: {fileID: 2100000, guid: fe5f7d194597de54893ca32c5f61d161, type: 2}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0.1, y: 0.1}
+      rangeSaturationOffset: {x: 0, y: 0.1}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0.4, y: 0.5}
+    comment:
+      comment:
+    originalColor: {r: 0.34003842, g: 0.4065564, b: 0.21393296, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 32bd5291cbef4b74ab00ab9559977b13, type: 2}
+  - name: Field 01 B
+    matColor: {r: 0.2120363, g: 0.40692502, b: 0.36914957, a: 1}
+    targetMaterial: {fileID: 2100000, guid: a8af41f64e7c40a409bb8f6748211da0, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: f3e5727b95e83fe4f98675a425f085e3, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 0
+      amountCopyFromSource: 1
+      fixedColor: {r: 0.8, g: 0.57640916, b: 0.2, a: 0}
+      sourceMaterial: {fileID: 2100000, guid: 32bd5291cbef4b74ab00ab9559977b13, type: 2}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: -0.05, y: -0.05}
+      rangeSaturationOffset: {x: -0.1, y: 0.1}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment:
+    originalColor: {r: 0.3996437, g: 0.4065564, b: 0.25404727, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: a8af41f64e7c40a409bb8f6748211da0, type: 2}
+  - name: Field 01 C
+    matColor: {r: 0.2136287, g: 0.32841405, b: 0.40692502, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 6d4448b8a9edfb348b18db5efd8399bd, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: ccdd7e30fbbe0e440b41ed93dd21e3a3, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 0
+      amountCopyFromSource: 1
+      fixedColor: {r: 0.8, g: 0.57640916, b: 0.2, a: 0}
+      sourceMaterial: {fileID: 2100000, guid: 32bd5291cbef4b74ab00ab9559977b13, type: 2}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0.05, y: 0.05}
+      rangeSaturationOffset: {x: -0.1, y: 0.1}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment:
+    originalColor: {r: 0.261855, g: 0.4065564, b: 0.1823267, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 6d4448b8a9edfb348b18db5efd8399bd, type: 2}
+  - name: Field Stripes 01 A
+    matColor: {r: 0.232601, g: 0.47780034, b: 0.50692505, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 492b356d00e613540b634ecd9a427237, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: 9d6c491fbc47b9e4d99328e9c069bc5c, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 0
+      amountCopyFromSource: 1
+      fixedColor: {r: 0.8, g: 0.57640916, b: 0.2, a: 0}
+      sourceMaterial: {fileID: 2100000, guid: 32bd5291cbef4b74ab00ab9559977b13, type: 2}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0.1, y: 0.1}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment:
+    originalColor: {r: 0.4236771, g: 0.5065564, b: 0.2665537, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 492b356d00e613540b634ecd9a427237, type: 2}
+  - name: Field Stripes 01 B
+    matColor: {r: 0.2641433, g: 0.50692505, b: 0.45986643, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 80f03595645129a438b2345ebed8a103, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: 9d92f4784486eba468d702d99c596fd9, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 0
+      amountCopyFromSource: 1
+      fixedColor: {r: 0.8, g: 0.57640916, b: 0.2, a: 0}
+      sourceMaterial: {fileID: 2100000, guid: a8af41f64e7c40a409bb8f6748211da0, type: 2}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0.1, y: 0.1}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment:
+    originalColor: {r: 0.49794337, g: 0.5065564, b: 0.31653485, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 80f03595645129a438b2345ebed8a103, type: 2}
+  - name: Field Stripes 01 C
+    matColor: {r: 0.266127, g: 0.40912035, b: 0.50692505, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 267e55e828bb34e4e80b875f37c8ebdf, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: 49025568d8d94dd43807f444b56fca36, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 0
+      amountCopyFromSource: 1
+      fixedColor: {r: 0.8, g: 0.57640916, b: 0.2, a: 0}
+      sourceMaterial: {fileID: 2100000, guid: 6d4448b8a9edfb348b18db5efd8399bd, type: 2}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0.1, y: 0.1}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment:
+    originalColor: {r: 0.326263, g: 0.5065564, b: 0.22717325, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 267e55e828bb34e4e80b875f37c8ebdf, type: 2}
+  - name: Berries 01 A
+    matColor: {r: 0, g: 0, b: 0, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 1a27909e990f8c14cb1d7839b1b4ce48, type: 2}
+    additionalTargets: []
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 0
+      amountCopyFromSource: 0
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+      sourceMaterial: {fileID: 0}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment:
+    originalColor: {r: 0, g: 0, b: 0, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 1a27909e990f8c14cb1d7839b1b4ce48, type: 2}
+  - name: Bush 01 A
+    matColor: {r: 0.34510875, g: 0.40234253, b: 0.27898386, a: 1}
+    targetMaterial: {fileID: 2100000, guid: c4ac72464083d1843bbd0134277c8b7c, type: 2}
+    additionalTargets: []
+    colorMixSettings:
+      amountKeyColor1: 1
+      amountKeyColor2: 0.159
+      amountKeyColor3: 0.136
+      amountKeyColor4: 0.108
+      amountFixedColor: 0.469
+      amountCopyFromSource: 0
+      fixedColor: {r: 0.8, g: 0.57640916, b: 0.2, a: 0}
+      sourceMaterial: {fileID: 0}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0.4, y: 0.45}
+    comment:
+      comment:
+    originalColor: {r: 0.41600195, g: 0.28449595, b: 0.22688915, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: c4ac72464083d1843bbd0134277c8b7c, type: 2}
+  - name: Flowers 01 A
+    matColor: {r: 0.26847044, g: 0.5284662, b: 0.35741708, a: 1}
+    targetMaterial: {fileID: 2100000, guid: b62fbbbce92edcb4895e871b2d97da30, type: 2}
+    additionalTargets: []
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 0
+      amountCopyFromSource: 1
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+      sourceMaterial: {fileID: 2100000, guid: fe5f7d194597de54893ca32c5f61d161, type: 2}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: -0.3, y: 0.1}
+      rangeValueOffset: {x: 0.1, y: 0.15}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment:
+    originalColor: {r: 0.6144968, g: 0.6410503, b: 0.19836695, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: b62fbbbce92edcb4895e871b2d97da30, type: 2}
+  - name: Flowers 01 B
+    matColor: {r: 0.1867163, g: 0.3835457, b: 0.40692502, a: 1}
+    targetMaterial: {fileID: 2100000, guid: f381d249cef93c84e9215231e098d3d3, type: 2}
+    additionalTargets: []
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 0
+      amountCopyFromSource: 1
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+      sourceMaterial: {fileID: 2100000, guid: 32bd5291cbef4b74ab00ab9559977b13, type: 2}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment:
+    originalColor: {r: 0.6144968, g: 0.6410503, b: 0.19836695, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: f381d249cef93c84e9215231e098d3d3, type: 2}
+  - name: Flowers 01 C
+    matColor: {r: 0.2136287, g: 0.32841405, b: 0.40692502, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 12031f32a24b67346b18748b8325155d, type: 2}
+    additionalTargets: []
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 0
+      amountCopyFromSource: 1
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+      sourceMaterial: {fileID: 2100000, guid: 6d4448b8a9edfb348b18db5efd8399bd, type: 2}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment:
+    originalColor: {r: 0.6144968, g: 0.6410503, b: 0.19836695, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 12031f32a24b67346b18748b8325155d, type: 2}
+  - name: Gold 01 A
+    matColor: {r: 0.744612, g: 0.5035505, b: 0.15300418, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 113edaa64b72947468f76781549ae130, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: 26e724ef2d1669c48b0ac2c47165f0dc, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0.211
+      amountKeyColor2: 0.16
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 1
+      amountCopyFromSource: 0
+      fixedColor: {r: 0.9716981, g: 0.6186344, b: 0.14208792, a: 0}
+      sourceMaterial: {fileID: 0}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment:
+    originalColor: {r: 0.7316432, g: 0.46737996, b: 0.12419075, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 113edaa64b72947468f76781549ae130, type: 2}
+  - name: Rock Base 01 A
+    matColor: {r: 0.3, g: 0.15000588, b: 0.18536602, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 9c4b3776ff645d1488ff59e6d0efb90b, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: 74118e9cdc677d147934ee12d3c50c2b, type: 2}
+    - {fileID: 2100000, guid: 2a65587e6f4fb284dab0e677045e917a, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0.097
+      amountKeyColor2: 1
+      amountKeyColor3: 0.078
+      amountKeyColor4: 0.07
+      amountFixedColor: 0
+      amountCopyFromSource: 0
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+      sourceMaterial: {fileID: 0}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0.3, y: 0.5}
+      rangeValueOverwrite: {x: 0.3, y: 0.3}
+    comment:
+      comment:
+    originalColor: {r: 0.26866418, g: 0.3, b: 0.28994805, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 9c4b3776ff645d1488ff59e6d0efb90b, type: 2}
+  - name: Rock Accent 01 A
+    matColor: {r: 0.35000002, g: 0.14000687, b: 0.18951139, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 49b9f16fc050102429d8b7df7248e309, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: df48f9c58c88061458fe2ee45552bdb2, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 0
+      amountCopyFromSource: 1
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+      sourceMaterial: {fileID: 2100000, guid: 9c4b3776ff645d1488ff59e6d0efb90b, type: 2}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0.1, y: 0.1}
+      rangeValueOffset: {x: 0.05, y: 0.05}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment:
+    originalColor: {r: 0.35, g: 0.2678717, b: 0.34516224, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 49b9f16fc050102429d8b7df7248e309, type: 2}
+  - name: Rock Beach 01 A
+    matColor: {r: 0.558319, g: 0.49699593, b: 0.51145244, a: 1}
+    targetMaterial: {fileID: 2100000, guid: ccaaec14493b63b418a2c7b1453a224f, type: 2}
+    additionalTargets: []
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 0
+      amountCopyFromSource: 1
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+      sourceMaterial: {fileID: 2100000, guid: 9c4b3776ff645d1488ff59e6d0efb90b, type: 2}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0.1, y: 0.2}
+      rangeValueOverwrite: {x: 0.5, y: 0.6}
+    comment:
+      comment:
+    originalColor: {r: 0.51385576, g: 0.57378966, b: 0.55456394, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: ccaaec14493b63b418a2c7b1453a224f, type: 2}
+  - name: Ruin Base 01 A
+    matColor: {r: 0.27627772, g: 0.4, b: 0.39585364, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 61e961e2597901741a61369f318b05ad, type: 2}
+    additionalTargets: []
+    colorMixSettings:
+      amountKeyColor1: 0.101
+      amountKeyColor2: 0.438
+      amountKeyColor3: 1
+      amountKeyColor4: 0
+      amountFixedColor: 0
+      amountCopyFromSource: 0
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+      sourceMaterial: {fileID: 0}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0.4, y: 0.5}
+      rangeSaturationOverwrite: {x: 0.3, y: 0.5}
+      rangeValueOverwrite: {x: 0.4, y: 0.4}
+    comment:
+      comment:
+    originalColor: {r: 0.36267108, g: 0.24893087, b: 0.35781077, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 61e961e2597901741a61369f318b05ad, type: 2}
+  - name: Ruin Accent 01 A
+    matColor: {r: 0.48348606, g: 0.70000005, b: 0.6927439, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 7e822871a6788c74ebbf0bd579e8850f, type: 2}
+    additionalTargets: []
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 0
+      amountCopyFromSource: 1
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+      sourceMaterial: {fileID: 2100000, guid: 61e961e2597901741a61369f318b05ad, type: 2}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0.3, y: 0.3}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment:
+    originalColor: {r: 0.1913768, g: 0.19769813, b: 0.24088988, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 7e822871a6788c74ebbf0bd579e8850f, type: 2}
+  - name: Ruin Accent 01 B
+    matColor: {r: 0.42846024, g: 0.67106295, b: 0.66293246, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 1f417369a7fa24448950fdfdd1f62b6c, type: 2}
+    additionalTargets: []
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 0
+      amountCopyFromSource: 1
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+      sourceMaterial: {fileID: 2100000, guid: 61e961e2597901741a61369f318b05ad, type: 2}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0.1}
+      rangeValueOffset: {x: 0.2, y: 0.5}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0.6, y: 0.7}
+    comment:
+      comment:
+    originalColor: {r: 0.32783428, g: 0.36588225, b: 0.6258529, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 1f417369a7fa24448950fdfdd1f62b6c, type: 2}
+  - name: Ruin Base Shadow 01 A
+    matColor: {r: 0, g: 0, b: 0, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 8a28b87ebd14cb544a90b9524934cf64, type: 2}
+    additionalTargets: []
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 0
+      amountCopyFromSource: 0
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+      sourceMaterial: {fileID: 0}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment:
+    originalColor: {r: 0, g: 0, b: 0, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 8a28b87ebd14cb544a90b9524934cf64, type: 2}
+  - name: Sand 01 A
+    matColor: {r: 0.79999995, g: 0.72414935, b: 0.6917588, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 0ca5d0207b9ce1f4bae018a1d9731d86, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: 87cea04e32cf16348a019aafcf016d1f, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0.147
+      amountKeyColor2: 0.578
+      amountKeyColor3: 0.085
+      amountKeyColor4: 0.101
+      amountFixedColor: 0.613
+      amountCopyFromSource: 0
+      fixedColor: {r: 0.87486583, g: 0.8773585, b: 0.79045033, a: 1}
+      sourceMaterial: {fileID: 0}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0.8, y: 0.8}
+    comment:
+      comment:
+    originalColor: {r: 0.8, g: 0.73646295, b: 0.593598, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 0ca5d0207b9ce1f4bae018a1d9731d86, type: 2}
+  - name: Tree Bark 01 A
+    matColor: {r: 0, g: 0, b: 0, a: 1}
+    targetMaterial: {fileID: 2100000, guid: b5fee5f14fa7de94bb84b7b9aae31b34, type: 2}
+    additionalTargets: []
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 0
+      amountCopyFromSource: 0
+      fixedColor: {r: 0, g: 0, b: 0, a: 0}
+      sourceMaterial: {fileID: 0}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment:
+    originalColor: {r: 0, g: 0, b: 0, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: b5fee5f14fa7de94bb84b7b9aae31b34, type: 2}
+  - name: Tree Top 01 A
+    matColor: {r: 0.09166129, g: 0.30000004, b: 0.16293564, a: 1}
+    targetMaterial: {fileID: 2100000, guid: de99fef9eb028594d8ce6a007c4d2ab0, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: f6e890b4868538c44a957fb250c72cfd, type: 2}
+    - {fileID: 2100000, guid: 33c45ff14a28d0d41b8e7bfc8fd9a2e6, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 0
+      amountCopyFromSource: 1
+      fixedColor: {r: 0.8018868, g: 0.6619738, b: 0.2004717, a: 0}
+      sourceMaterial: {fileID: 2100000, guid: fe5f7d194597de54893ca32c5f61d161, type: 2}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0.1, y: 0.2}
+      rangeValueOffset: {x: -0.1, y: -0.1}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment:
+    originalColor: {r: 0.3434942, g: 0.36006507, b: 0.083804525, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: de99fef9eb028594d8ce6a007c4d2ab0, type: 2}
+  - name: Water 01 A
+    matColor: {r: 0.4, g: 0.42908803, b: 0.8, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 5dc22f77442e2ce4b8e09755688620a8, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: f793f278dca40d543ad56f17868f9415, type: 2}
+    - {fileID: 2100000, guid: d6d6fb7790f336746af027f5814a25d1, type: 2}
+    - {fileID: 2100000, guid: 12ab679bc348d9749b344f9886fbb61b, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 1
+      amountCopyFromSource: 0
+      fixedColor: {r: 0.0039215502, g: 0.5325833, b: 0.8509804, a: 1}
+      sourceMaterial: {fileID: 0}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0.1}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0.5, y: 0.5}
+      rangeValueOverwrite: {x: 0.8, y: 0.8}
+    comment:
+      comment:
+    originalColor: {r: 0.3199518, g: 0.85, b: 0.85, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 5dc22f77442e2ce4b8e09755688620a8, type: 2}
+  - name: Waves 01 A
+    matColor: {r: 0.54, g: 0.5661792, b: 0.90000004, a: 1}
+    targetMaterial: {fileID: 2100000, guid: cc83e23bf4cfca44aa123623672e7a55, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: 7537585c60ea02e4593f3092360a231c, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 0
+      amountCopyFromSource: 1
+      fixedColor: {r: 0.759434, g: 0.95767814, b: 1, a: 1}
+      sourceMaterial: {fileID: 2100000, guid: 5dc22f77442e2ce4b8e09755688620a8, type: 2}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: -0.1, y: -0.1}
+      rangeValueOffset: {x: 0.1, y: 0.1}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment:
+    originalColor: {r: 0.45259318, g: 0.95000005, b: 0.95000005, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: cc83e23bf4cfca44aa123623672e7a55, type: 2}
+  - name: Cloud Planes 01 A
+    matColor: {r: 0.8537736, g: 0.9736313, b: 1, a: 1}
+    targetMaterial: {fileID: 2100000, guid: 6653507e833f13b49b28936b78f7a6f1, type: 2}
+    additionalTargets:
+    - {fileID: 2100000, guid: 7e29fcb4d6eaefb4698ba3555a9e6df4, type: 2}
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 1
+      amountCopyFromSource: 0
+      fixedColor: {r: 0.8537736, g: 0.9736313, b: 1, a: 1}
+      sourceMaterial: {fileID: 2100000, guid: 5dc22f77442e2ce4b8e09755688620a8, type: 2}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment:
+    originalColor: {r: 0.8537736, g: 0.9736313, b: 1, a: 1}
+    lastTargetMat: {fileID: 2100000, guid: 6653507e833f13b49b28936b78f7a6f1, type: 2}
+  waterEdgeReference: {fileID: 2100000, guid: cc83e23bf4cfca44aa123623672e7a55, type: 2}
+  waterPlaneMaterial: {fileID: 2100000, guid: d6d6fb7790f336746af027f5814a25d1, type: 2}
+  lightColorSetups: []
+  fogColorSetup:
+    colorMixSettings:
+      amountKeyColor1: 0.146
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0.307
+      amountFixedColor: 0.699
+      amountCopyFromSource: 0
+      fixedColor: {r: 0, g: 0.8381572, b: 1, a: 1}
+      sourceMaterial: {fileID: 0}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0}
+      rangeValueOffset: {x: 0, y: 0}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0.5, y: 0.6}
+      rangeValueOverwrite: {x: 0.5, y: 0.65}
+    comment:
+      comment:
+  fogStartMinMax: {x: 5, y: 5}
+  fogEndMinMax: {x: 30, y: 30}
+  ambientColorSetup:
+    colorMixSettings:
+      amountKeyColor1: 0
+      amountKeyColor2: 0
+      amountKeyColor3: 0
+      amountKeyColor4: 0
+      amountFixedColor: 1
+      amountCopyFromSource: 0
+      fixedColor: {r: 0.5149964, g: 0.6590103, b: 0.6698113, a: 1}
+      sourceMaterial: {fileID: 0}
+    hsvOffsetSettings:
+      rangeHueOffset: {x: 0, y: 0}
+      rangeSaturationOffset: {x: 0, y: 0.1}
+      rangeValueOffset: {x: -0.1, y: -0.1}
+    hsvOverwriteSettings:
+      rangeHueOverwrite: {x: 0, y: 0}
+      rangeSaturationOverwrite: {x: 0, y: 0}
+      rangeValueOverwrite: {x: 0, y: 0}
+    comment:
+      comment:
+  enableRain: 0
+  rainIntensity: 0
+  enableSnow: 0
+  snowIntensity: 700
+  dncycleParameter: {fileID: 11400000, guid: 9c54acdddd8910249bbddb9205a846f3, type: 2}

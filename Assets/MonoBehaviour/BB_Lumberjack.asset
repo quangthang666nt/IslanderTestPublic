@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e0599b184f384f5676f4b1491208ef, type: 3}
+  m_Name: BB_Lumberjack
+  m_EditorClassIdentifier:
+  bAlwaysShowWhenAvailable: 0
+  strPackName:
+    mTerm: Tooltips/Building Packs/Pack Name/Lumber Pack
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  strPackDescriptionTemplate:
+    mTerm: Tooltips/Building Pack Description Template 01
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  strPackLookupName: bb_lumber_header
+  strPackLookupDescription: bb_lumber_body
+  goPackIcon: {fileID: 1067457234140868, guid: 94aae1e652f8b3b42b8568b90986530f, type: 2}
+  liGoBuildings:
+  - {fileID: 1317841725738664, guid: cfd5352ba4c6415479a0d937ade34355, type: 2}
+  - {fileID: 1176411317957894, guid: 7a7b2400892f34c42849ca51941578fa, type: 2}
+  liGoRequirements: []
+  iRequirementJokers: 0
+  iMinimumRequiredTotalUnlocks: 0
+  bRequiresGrass: 0
+  bRequiresSand: 0
+  bRequiresNoSand: 0
+  bRequiresRock: 0
+  bRequiresWood: 1
+  bRequiresGold: 0
+  eAvailableIn: 2
